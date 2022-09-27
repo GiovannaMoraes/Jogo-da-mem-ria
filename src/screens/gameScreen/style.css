@@ -93,8 +93,38 @@ div#settings {
     margin-top: 200px;
 }
 
-#teste{
+.cartasPrimLinha{
     background-color: red;
     width: 100px;
-    height: 100px;
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.cartasSegLinha{
+    background-color: red;
+    width: 100px;
+    height: 150px;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    margin-left: -1050px;
+    margin-right: 10px;
+}
+
+.cartasTercLinha{
+    background-color: red;
+    width: 100px;
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.textoTools{
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+    text-decoration: none;
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Login - Jogo da Memória</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <a class="links" id="cadastrar"></a>
+        <a class="links" id="login"></a>
+
+        <div class="content">
+            <div id="loginScreen">
+                <h1>Jogo da Memória - Login</h1>
+                </br>
+
+                <form method="post" action="">
+
+                    <p>
+                        <label for="email">Insira seu e-mail</label>
+                    </p>
+                    <p><input id="email" name="email" required="required" type="email"
+                            placeholder="seuemail@email.com" />
+                    </p>
+                    <p>
+                        <label for="senha">Insira sua senha</label>
+                    </p>
+                    <p>
+                        <input id="senha" name="senha" required="required" type="password" />
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="perm_logado" id="perm_logado" />
+                        <label for="perm_logado">Permanecer logado</label>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Fazer Login" href="screens/gameScreen/index.html" />
+                    </p>
+
+                    <p class="link">
+                        Não possui um cadastro?
+                        <a href="screens/cadastroScreen/index.html">Cadastre-se</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

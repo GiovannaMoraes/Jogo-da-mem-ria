@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0%;
 }
 
@@ -24,12 +24,13 @@ body{
     align-items: center;
 }
 
-#cadastroScreen{
+#cadastroScreen {
     font-family: 'VT323', monospace;
     color: aliceblue;
+    margin-left: 100px;
 }
 
-#nome{
+#nome {
     width: 75% !important;
     background: #fff;
     padding: 8px 5px;
@@ -40,7 +41,7 @@ body{
     border-radius: 5px;
 }
 
-#nascimento{
+#nascimento {
     width: 75% !important;
     background: #fff;
     padding: 8px 5px;
@@ -51,7 +52,7 @@ body{
     border-radius: 5px;
 }
 
-#cpf{
+#cpf {
     width: 75% !important;
     background: #fff;
     padding: 8px 5px;
@@ -62,7 +63,7 @@ body{
     border-radius: 5px;
 }
 
-#telefone{
+#telefone {
     width: 75% !important;
     background: #fff;
     padding: 8px 5px;
@@ -73,7 +74,7 @@ body{
     border-radius: 5px;
 }
 
-#username{
+#username {
     width: 75% !important;
     background: #fff;
     padding: 8px 5px;
@@ -84,7 +85,7 @@ body{
     border-radius: 5px;
 }
 
-#email{
+#email {
     width: 75% !important;
     background: #fff;
     padding: 8px 5px;
@@ -118,4 +119,3 @@ input[type="submit"] {
     text-shadow: 0 1px 1px #333;
     border-radius: 5px;
 }
-

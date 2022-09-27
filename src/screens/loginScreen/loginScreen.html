@@ -11,8 +11,8 @@
 
 <body>
     <div class="container">
-        <a class="links" id="cadastrar"></a>
-        <a class="links" id="login"></a>
+        <a class="links" id="cadastrar" href="../cadastroScreen/index.html"></a>
+        <a class="links" id="login" href="../gameScreen/index.html"></a>
 
         <div class="content">
             <div id="loginScreen">
@@ -39,13 +39,20 @@
                         <label for="perm_logado">Permanecer logado</label>
                     </p>
 
-                    <p>
-                        <input type="submit" value="Fazer Login" href="screens/gameScreen/index.html" />
-                    </p>
+                    <!-- <p>
+                        <input type="submit" value="Fazer Login" />
+                    </p> -->
 
-                    <p class="link">
+                    <button type="submit" value="Fazer Login">
+                        <a href="../gameScreen/index.html">
+                            Fazer Login
+                        </a>
+                    </button>
+
+
+                    <p class="links">
                         Não possui um cadastro?
-                        <a href="screens/cadastroScreen/index.html">Cadastre-se</a>
+                        <a href="../cadastroScreen/index.html">Cadastre-se</a>
                     </p>
                 </form>
             </div>

@@ -42,6 +42,7 @@ div#gameScreen {
     border-radius: 5px;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 div#title {
@@ -95,32 +96,11 @@ div#settings {
 
 .cartasPrimLinha{
     background-color: red;
-    width: 100px;
-    height: 150px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 25px;
     margin-right: 10px;
-}
-
-.cartasSegLinha{
-    background-color: red;
-    width: 100px;
-    height: 150px;
-    margin-top: 200px;
-    margin-bottom: 25px;
-    margin-left: -1050px;
-    margin-right: 10px;
-}
-
-.cartasTercLinha{
-    background-color: red;
-    width: 100px;
-    height: 150px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    margin-right: 10px;
+    margin-top: 10px;
+    margin-inline: 30px;
+    width: 80px;
+    height: 80px;
 }
 
 .textoTools{
